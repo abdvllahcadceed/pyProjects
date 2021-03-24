@@ -1,8 +1,6 @@
-# East Africa University Qardho
-# Faculty of Information Science & Tech, Department of CompSci
 # COM 112 Course : Intro to Proramming Languages using Python
-# Taught by Mr. Abdullahi Cadceed, Dean of the Faculty
-# All course codes are available in here
+# Taught by Mr. Abdullahi Cadceed, Dean of the Faculty of Information Science & Technology, East Africa University Qardho
+# All course codes wil be available in here
 
 # Basic Calculations
 print (2 + 3)
@@ -165,6 +163,36 @@ myGrades.append(25)
 # Deleting or removing items to the List
 del myGrades [3]
 
+# Deleting the whole List
+del myGrades
+
+# Tuples
+# Tuples are Unmodifiable 
+# Declaring a Tuple
+mySavings = (230, 340, 56, 113)
+print (mySavings)
+
+# Indexing a Tuple
+mySavings [2]
+
+# Check if an item in a Tuple
+340 in mySavings
+
+# Find the number of items in a Tuple
+len(mySavings)
+
+# Concatinating Tuples
+print (mySavings + (80, 44)
+print (mySavings)
+
+# Duplicating a Tuple
+print (mySavings)
+print (mySavings*5)
+
+# Deleting a Tuple
+print (mySavings)
+del mySavings
+print (mySavings)
 
 
 
