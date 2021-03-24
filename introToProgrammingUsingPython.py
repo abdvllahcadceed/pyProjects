@@ -1,4 +1,4 @@
-# COM 112 Course : Intro to Proramming Languages using Python
+# COM 112 Course : Intro to Programming Languages using Python
 # Taught by Mr. Abdullahi Cadceed, Dean of the Faculty of Information Science & Technology, East Africa University Qardho
 # All course codes wil be available in here
 
