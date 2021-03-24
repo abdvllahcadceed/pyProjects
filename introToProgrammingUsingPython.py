@@ -160,6 +160,9 @@ myGrades [2] = 90
 # Adding items to the List
 myGrades.append(25)
 
+# Find the number of items in a List
+print (len(myGrades))
+
 # Deleting or removing items to the List
 del myGrades [3]
 
@@ -179,7 +182,7 @@ mySavings [2]
 340 in mySavings
 
 # Find the number of items in a Tuple
-len(mySavings)
+print (len(mySavings))
 
 # Concatinating Tuples
 print (mySavings + (80, 44)
