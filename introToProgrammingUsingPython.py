@@ -164,7 +164,7 @@ myGrades.append(25)
 # Find the number of items in a List
 print (len(myGrades))
 
-# Deleting or removing items to the List
+# Deleting or removing items in the List
 del myGrades [3]
 
 # Deleting the whole List
