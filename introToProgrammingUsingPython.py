@@ -1,4 +1,4 @@
-# COM 112 Course : Intro to Programming Languages using Python
+# COM 112 Course : Intro to Programming Languages (using Python)
 # Taught by Mr. Abdullahi Cadceed, Dean of the Faculty of Information Science & Technology, East Africa University Qardho
 # All course codes wil be available in here
 
@@ -127,7 +127,8 @@ str (2.2)           # From float to string
 float ('2')         # From string to float
 
 # Advanced Data Types (Lists, Tuples & Dictionaries)
-#Lists
+# Lists
+# Lists are Modifiable
 
 # Declaring a List
 myGrades = [60, 55, 80, 95, 33, 71, 45]
@@ -197,5 +198,36 @@ print (mySavings)
 del mySavings
 print (mySavings)
 
+# Dictioneries
+# Dictionary is a collection of related data pairs.
+# Dictioneries are Modifiable
 
+# Declaring a dictionary
+myDict = {"Abdi" : 20, "Mohamed" : 30}
+print (myDict)
+
+# Declaring a dictionary using the dict() method
+myDict1 = dict (Ali = 50, Amal = 60)
+print (myDict1)
+
+# Accessing a dictionary
+print (myDict["Mohamed"])
+
+# Modifying a dictionary
+myDict["Mohamed"] = 10
+
+# Declaring empty dictionary
+emptyDict = {}
+print (emptyDict)
+
+# Adding items to a dictionary
+myDict["Adam"] = 90
+print(myDict)
+
+# Removing item from a dictionary
+del myDict["Adam"]
+print (myDict)
+
+# Deleting an entire dictionary
+del myDict
 
