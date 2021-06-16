@@ -1,6 +1,5 @@
-# COM 112 Course : Intro to Programming Languages (using Python)
-# Taught by Mr. Abdullahi Cadceed, Dean of the Faculty of Information Science & Technology, East Africa University Qardho
-# All course codes wil be available in here
+# Introduction to Programming using Python
+# All course codes
 
 # Basic Calculations
 print (2 + 3)
@@ -231,3 +230,74 @@ print (myDict)
 # Deleting an entire dictionary
 del myDict
 
+# Making Your Program Intractive
+# Python's Built-In Functions: Input(), and Print()
+
+myName = input("Please enter your name: ")
+myAge = input("Please enter your age: ")
+print ("Hello There! my name is", myName, "and I am", myAge, "years old")
+
+# Printing my program using % formatter
+print ("Hello There! my name is %s and I am %s years old" % (myName, myAge))
+
+# Printing my program using format() method
+print("Hello There! my name is {} and I am {} years old".format(myName, myAge))
+
+# Triple Quotes
+# Printing a long statement
+print(''' Hello there!
+my name is Ali and I am 33 years old,
+and I work as engineer ''')
+
+# Escaping Characters Using Backslash \
+# Printing a Tab
+print("Hi \tThere")
+
+# Printing a New Line
+print("Hi \nThere")
+
+# Printing the Backlash itself
+print("\\")
+
+# Printing the Entire String without Looking after the Backlash
+print(r"Hi \tThere")
+
+# Making Decisions and Choices
+# Condition Statements
+# The Result would a Boolean either True or False
+
+# Equal (==)
+print(3 == 5)
+print(3 == 3)
+
+# Not Equal (!=)
+print(3 != 4)
+
+# Greater Than (>)
+print(5 > 3)
+print(3 > 5)
+
+# Less Than (<)
+print(3 < 8)
+print(3 < 0)
+
+# Greather Than or Equal
+print(3 >= 5)
+print(5 >= 3)
+
+# Less Than or Equal
+print(6 <= 5)
+print(5 <= 6)
+
+# Logical Operators
+# AND, OR, Not
+
+# AND
+print(3 == 3 and 4 > 5)
+
+# OR
+print(2 < 0 or 4 < 7)
+
+# Not
+print(not 3 > 9)
+print(not 4 == 4)
