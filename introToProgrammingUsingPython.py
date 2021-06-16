@@ -1,4 +1,4 @@
-# Introduction to Programming using Python
+# Introduction to Programming Languages using Python
 # All course codes
 
 # Basic Calculations
